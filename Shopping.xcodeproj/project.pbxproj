@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1056150F182A2634000EF8AA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1056150D182A2634000EF8AA /* LoginViewController.m */; };
+		10561510182A2634000EF8AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1056150E182A2634000EF8AA /* LoginViewController.xib */; };
+		10561515182A2853000EF8AA /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10561513182A2853000EF8AA /* AdminViewController.m */; };
+		10561516182A2853000EF8AA /* AdminViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10561514182A2853000EF8AA /* AdminViewController.xib */; };
+		1056151B182A28CB000EF8AA /* ShoppingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1056151A182A28CB000EF8AA /* ShoppingManager.m */; };
+		1056151F182A2D88000EF8AA /* AddGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1056151D182A2D88000EF8AA /* AddGoodsViewController.m */; };
+		10561520182A2D88000EF8AA /* AddGoodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1056151E182A2D88000EF8AA /* AddGoodsViewController.xib */; };
+		10561522182A345D000EF8AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10561521182A345D000EF8AA /* QuartzCore.framework */; };
+		10561526182A36AC000EF8AA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10561524182A36AC000EF8AA /* RegisterViewController.m */; };
+		10561527182A36AC000EF8AA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10561525182A36AC000EF8AA /* RegisterViewController.xib */; };
+		10C22247182A185700609BE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C22246182A185700609BE5 /* UIKit.framework */; };
+		10C22249182A185700609BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C22248182A185700609BE5 /* Foundation.framework */; };
+		10C2224B182A185700609BE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2224A182A185700609BE5 /* CoreGraphics.framework */; };
+		10C22251182A185700609BE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10C2224F182A185700609BE5 /* InfoPlist.strings */; };
+		10C22253182A185700609BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22252182A185700609BE5 /* main.m */; };
+		10C22257182A185700609BE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22256182A185700609BE5 /* AppDelegate.m */; };
+		10C22259182A185700609BE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C22258182A185700609BE5 /* Default.png */; };
+		10C2225B182A185700609BE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C2225A182A185700609BE5 /* Default@2x.png */; };
+		10C2225D182A185700609BE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C2225C182A185700609BE5 /* Default-568h@2x.png */; };
+		10C22265182A186900609BE5 /* Shopping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10C22263182A186900609BE5 /* Shopping.xcdatamodeld */; };
+		10C2226B182A1DD300609BE5 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C2226A182A1DD300609BE5 /* Goods.m */; };
+		10C22271182A1DDF00609BE5 /* ShopCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22270182A1DDF00609BE5 /* ShopCar.m */; };
+		10C22274182A1DE300609BE5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22273182A1DE300609BE5 /* User.m */; };
+		10C22279182A24C900609BE5 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22276182A24C900609BE5 /* CoreDataManager.m */; };
+		10C2227A182A24C900609BE5 /* ImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C22278182A24C900609BE5 /* ImageToDataTransformer.m */; };
+		10C2227C182A25BA00609BE5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2227B182A25BA00609BE5 /* CoreData.framework */; };
+		10DEC36F182B7D0100C45DE4 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DEC36E182B7D0100C45DE4 /* Order.m */; };
+		82546E52182BD16A003643AD /* GoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82546E50182BD16A003643AD /* GoodListViewController.m */; };
+		82546E53182BD16A003643AD /* GoodListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82546E51182BD16A003643AD /* GoodListViewController.xib */; };
+		82C54416182BDAD1002EB306 /* GoodsInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C54414182BDAD1002EB306 /* GoodsInfoViewController.m */; };
+		82C54417182BDAD1002EB306 /* GoodsInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C54415182BDAD1002EB306 /* GoodsInfoViewController.xib */; };
+		82C8404D182BE14E0034B7FD /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8404B182BE14E0034B7FD /* ShoppingCarViewController.m */; };
+		82C8404E182BE14E0034B7FD /* ShoppingCarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C8404C182BE14E0034B7FD /* ShoppingCarViewController.xib */; };
+		82E5738A182BE8EE00A21B6C /* AddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E57388182BE8EE00A21B6C /* AddressListViewController.m */; };
+		82E5738B182BE8EE00A21B6C /* AddressListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E57389182BE8EE00A21B6C /* AddressListViewController.xib */; };
+		82E5738F182BEC1000A21B6C /* AddAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E5738D182BEC1000A21B6C /* AddAddressViewController.m */; };
+		82E57390182BEC1000A21B6C /* AddAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E5738E182BEC1000A21B6C /* AddAddressViewController.xib */; };
+		82E57393182BEFC200A21B6C /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E57392182BEFC200A21B6C /* Address.m */; };
+		82E57398182BF21D00A21B6C /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E57396182BF21D00A21B6C /* OrderViewController.m */; };
+		82E57399182BF21D00A21B6C /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E57397182BF21D00A21B6C /* OrderViewController.xib */; };
+		82E5739E182BF70400A21B6C /* OrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E5739C182BF70300A21B6C /* OrderListViewController.m */; };
+		82E5739F182BF70400A21B6C /* OrderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E5739D182BF70300A21B6C /* OrderListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1056150C182A2634000EF8AA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Shopping/LoginViewController.h; sourceTree = "<group>"; };
+		1056150D182A2634000EF8AA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Shopping/LoginViewController.m; sourceTree = "<group>"; };
+		1056150E182A2634000EF8AA /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Shopping/LoginViewController.xib; sourceTree = "<group>"; };
+		10561512182A2853000EF8AA /* AdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
+		10561513182A2853000EF8AA /* AdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
+		10561514182A2853000EF8AA /* AdminViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdminViewController.xib; sourceTree = "<group>"; };
+		10561519182A28CB000EF8AA /* ShoppingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingManager.h; sourceTree = "<group>"; };
+		1056151A182A28CB000EF8AA /* ShoppingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingManager.m; sourceTree = "<group>"; };
+		1056151C182A2D88000EF8AA /* AddGoodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGoodsViewController.h; sourceTree = "<group>"; };
+		1056151D182A2D88000EF8AA /* AddGoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGoodsViewController.m; sourceTree = "<group>"; };
+		1056151E182A2D88000EF8AA /* AddGoodsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddGoodsViewController.xib; sourceTree = "<group>"; };
+		10561521182A345D000EF8AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10561523182A36AC000EF8AA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		10561524182A36AC000EF8AA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		10561525182A36AC000EF8AA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		10C22243182A185700609BE5 /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C22246182A185700609BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10C22248182A185700609BE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10C2224A182A185700609BE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10C2224E182A185700609BE5 /* Shopping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shopping-Info.plist"; sourceTree = "<group>"; };
+		10C22250182A185700609BE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10C22252182A185700609BE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10C22254182A185700609BE5 /* Shopping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shopping-Prefix.pch"; sourceTree = "<group>"; };
+		10C22255182A185700609BE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10C22256182A185700609BE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10C22258182A185700609BE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		10C2225A182A185700609BE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		10C2225C182A185700609BE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		10C22264182A186900609BE5 /* Shopping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shopping.xcdatamodel; sourceTree = "<group>"; };
+		10C22269182A1DD300609BE5 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		10C2226A182A1DD300609BE5 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		10C2226F182A1DDF00609BE5 /* ShopCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCar.h; sourceTree = "<group>"; };
+		10C22270182A1DDF00609BE5 /* ShopCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCar.m; sourceTree = "<group>"; };
+		10C22272182A1DE300609BE5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		10C22273182A1DE300609BE5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		10C22275182A24C900609BE5 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		10C22276182A24C900609BE5 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		10C22277182A24C900609BE5 /* ImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageToDataTransformer.h; sourceTree = "<group>"; };
+		10C22278182A24C900609BE5 /* ImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToDataTransformer.m; sourceTree = "<group>"; };
+		10C2227B182A25BA00609BE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		10DEC36D182B7D0100C45DE4 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = Shopping/Order.h; sourceTree = "<group>"; };
+		10DEC36E182B7D0100C45DE4 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = Shopping/Order.m; sourceTree = "<group>"; };
+		82546E4F182BD16A003643AD /* GoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodListViewController.h; sourceTree = "<group>"; };
+		82546E50182BD16A003643AD /* GoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodListViewController.m; sourceTree = "<group>"; };
+		82546E51182BD16A003643AD /* GoodListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodListViewController.xib; sourceTree = "<group>"; };
+		82C54413182BDAD1002EB306 /* GoodsInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodsInfoViewController.h; path = Shopping/GoodsInfoViewController.h; sourceTree = "<group>"; };
+		82C54414182BDAD1002EB306 /* GoodsInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodsInfoViewController.m; path = Shopping/GoodsInfoViewController.m; sourceTree = "<group>"; };
+		82C54415182BDAD1002EB306 /* GoodsInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GoodsInfoViewController.xib; path = Shopping/GoodsInfoViewController.xib; sourceTree = "<group>"; };
+		82C8404A182BE14E0034B7FD /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingCarViewController.h; path = Shopping/ShoppingCarViewController.h; sourceTree = "<group>"; };
+		82C8404B182BE14E0034B7FD /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingCarViewController.m; path = Shopping/ShoppingCarViewController.m; sourceTree = "<group>"; };
+		82C8404C182BE14E0034B7FD /* ShoppingCarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoppingCarViewController.xib; path = Shopping/ShoppingCarViewController.xib; sourceTree = "<group>"; };
+		82E57387182BE8EE00A21B6C /* AddressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressListViewController.h; path = Shopping/AddressListViewController.h; sourceTree = "<group>"; };
+		82E57388182BE8EE00A21B6C /* AddressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressListViewController.m; path = Shopping/AddressListViewController.m; sourceTree = "<group>"; };
+		82E57389182BE8EE00A21B6C /* AddressListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressListViewController.xib; path = Shopping/AddressListViewController.xib; sourceTree = "<group>"; };
+		82E5738C182BEC1000A21B6C /* AddAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddAddressViewController.h; path = Shopping/AddAddressViewController.h; sourceTree = "<group>"; };
+		82E5738D182BEC1000A21B6C /* AddAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddAddressViewController.m; path = Shopping/AddAddressViewController.m; sourceTree = "<group>"; };
+		82E5738E182BEC1000A21B6C /* AddAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddAddressViewController.xib; path = Shopping/AddAddressViewController.xib; sourceTree = "<group>"; };
+		82E57391182BEFC200A21B6C /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address.h; path = Shopping/Address.h; sourceTree = "<group>"; };
+		82E57392182BEFC200A21B6C /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = Shopping/Address.m; sourceTree = "<group>"; };
+		82E57395182BF21D00A21B6C /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderViewController.h; path = Shopping/OrderViewController.h; sourceTree = "<group>"; };
+		82E57396182BF21D00A21B6C /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderViewController.m; path = Shopping/OrderViewController.m; sourceTree = "<group>"; };
+		82E57397182BF21D00A21B6C /* OrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderViewController.xib; path = Shopping/OrderViewController.xib; sourceTree = "<group>"; };
+		82E5739B182BF70300A21B6C /* OrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderListViewController.h; sourceTree = "<group>"; };
+		82E5739C182BF70300A21B6C /* OrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListViewController.m; sourceTree = "<group>"; };
+		82E5739D182BF70300A21B6C /* OrderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C22240182A185700609BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10561522182A345D000EF8AA /* QuartzCore.framework in Frameworks */,
+				10C2227C182A25BA00609BE5 /* CoreData.framework in Frameworks */,
+				10C22247182A185700609BE5 /* UIKit.framework in Frameworks */,
+				10C22249182A185700609BE5 /* Foundation.framework in Frameworks */,
+				10C2224B182A185700609BE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10561511182A269B000EF8AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1056150C182A2634000EF8AA /* LoginViewController.h */,
+				1056150D182A2634000EF8AA /* LoginViewController.m */,
+				1056150E182A2634000EF8AA /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		10561517182A2856000EF8AA /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				10561512182A2853000EF8AA /* AdminViewController.h */,
+				10561513182A2853000EF8AA /* AdminViewController.m */,
+				10561514182A2853000EF8AA /* AdminViewController.xib */,
+				1056151C182A2D88000EF8AA /* AddGoodsViewController.h */,
+				1056151D182A2D88000EF8AA /* AddGoodsViewController.m */,
+				1056151E182A2D88000EF8AA /* AddGoodsViewController.xib */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
+		10561518182A286E000EF8AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				10561519182A28CB000EF8AA /* ShoppingManager.h */,
+				1056151A182A28CB000EF8AA /* ShoppingManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		10561528182A36B3000EF8AA /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				10561523182A36AC000EF8AA /* RegisterViewController.h */,
+				10561524182A36AC000EF8AA /* RegisterViewController.m */,
+				10561525182A36AC000EF8AA /* RegisterViewController.xib */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		1056152E182A4071000EF8AA /* GoodsList */ = {
+			isa = PBXGroup;
+			children = (
+				82546E4F182BD16A003643AD /* GoodListViewController.h */,
+				82546E50182BD16A003643AD /* GoodListViewController.m */,
+				82546E51182BD16A003643AD /* GoodListViewController.xib */,
+			);
+			name = GoodsList;
+			sourceTree = "<group>";
+		};
+		10C2223A182A185700609BE5 = {
+			isa = PBXGroup;
+			children = (
+				82E57394182BF1EA00A21B6C /* OrderForm */,
+				82E57386182BE8D300A21B6C /* Address */,
+				82C84049182BE1040034B7FD /* ShoppingCar */,
+				82546E59182BD3BC003643AD /* GoodsInfo */,
+				1056152E182A4071000EF8AA /* GoodsList */,
+				10561528182A36B3000EF8AA /* Register */,
+				10561518182A286E000EF8AA /* Common */,
+				10561517182A2856000EF8AA /* Admin */,
+				10561511182A269B000EF8AA /* Login */,
+				10C2227D182A25E100609BE5 /* CoreData */,
+				10C2224C182A185700609BE5 /* Shopping */,
+				10C22245182A185700609BE5 /* Frameworks */,
+				10C22244182A185700609BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C22244182A185700609BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C22243182A185700609BE5 /* Shopping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C22245182A185700609BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10561521182A345D000EF8AA /* QuartzCore.framework */,
+				10C2227B182A25BA00609BE5 /* CoreData.framework */,
+				10C22246182A185700609BE5 /* UIKit.framework */,
+				10C22248182A185700609BE5 /* Foundation.framework */,
+				10C2224A182A185700609BE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10C2224C182A185700609BE5 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				10C22255182A185700609BE5 /* AppDelegate.h */,
+				10C22256182A185700609BE5 /* AppDelegate.m */,
+				10C2224D182A185700609BE5 /* Supporting Files */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		10C2224D182A185700609BE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C2224E182A185700609BE5 /* Shopping-Info.plist */,
+				10C2224F182A185700609BE5 /* InfoPlist.strings */,
+				10C22252182A185700609BE5 /* main.m */,
+				10C22254182A185700609BE5 /* Shopping-Prefix.pch */,
+				10C22258182A185700609BE5 /* Default.png */,
+				10C2225A182A185700609BE5 /* Default@2x.png */,
+				10C2225C182A185700609BE5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10C2227D182A25E100609BE5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				82E57391182BEFC200A21B6C /* Address.h */,
+				82E57392182BEFC200A21B6C /* Address.m */,
+				10C22275182A24C900609BE5 /* CoreDataManager.h */,
+				10C22276182A24C900609BE5 /* CoreDataManager.m */,
+				10C22277182A24C900609BE5 /* ImageToDataTransformer.h */,
+				10C22278182A24C900609BE5 /* ImageToDataTransformer.m */,
+				10C22272182A1DE300609BE5 /* User.h */,
+				10C22273182A1DE300609BE5 /* User.m */,
+				10C2226F182A1DDF00609BE5 /* ShopCar.h */,
+				10C22270182A1DDF00609BE5 /* ShopCar.m */,
+				10C22269182A1DD300609BE5 /* Goods.h */,
+				10C2226A182A1DD300609BE5 /* Goods.m */,
+				10C22263182A186900609BE5 /* Shopping.xcdatamodeld */,
+				10DEC36D182B7D0100C45DE4 /* Order.h */,
+				10DEC36E182B7D0100C45DE4 /* Order.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		82546E59182BD3BC003643AD /* GoodsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				82C54413182BDAD1002EB306 /* GoodsInfoViewController.h */,
+				82C54414182BDAD1002EB306 /* GoodsInfoViewController.m */,
+				82C54415182BDAD1002EB306 /* GoodsInfoViewController.xib */,
+			);
+			name = GoodsInfo;
+			sourceTree = "<group>";
+		};
+		82C84049182BE1040034B7FD /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				82C8404A182BE14E0034B7FD /* ShoppingCarViewController.h */,
+				82C8404B182BE14E0034B7FD /* ShoppingCarViewController.m */,
+				82C8404C182BE14E0034B7FD /* ShoppingCarViewController.xib */,
+			);
+			name = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		82E57386182BE8D300A21B6C /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				82E57387182BE8EE00A21B6C /* AddressListViewController.h */,
+				82E57388182BE8EE00A21B6C /* AddressListViewController.m */,
+				82E57389182BE8EE00A21B6C /* AddressListViewController.xib */,
+				82E5738C182BEC1000A21B6C /* AddAddressViewController.h */,
+				82E5738D182BEC1000A21B6C /* AddAddressViewController.m */,
+				82E5738E182BEC1000A21B6C /* AddAddressViewController.xib */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		82E57394182BF1EA00A21B6C /* OrderForm */ = {
+			isa = PBXGroup;
+			children = (
+				82E57395182BF21D00A21B6C /* OrderViewController.h */,
+				82E57396182BF21D00A21B6C /* OrderViewController.m */,
+				82E57397182BF21D00A21B6C /* OrderViewController.xib */,
+				82E5739B182BF70300A21B6C /* OrderListViewController.h */,
+				82E5739C182BF70300A21B6C /* OrderListViewController.m */,
+				82E5739D182BF70300A21B6C /* OrderListViewController.xib */,
+			);
+			name = OrderForm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C22242182A185700609BE5 /* Shopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C22260182A185700609BE5 /* Build configuration list for PBXNativeTarget "Shopping" */;
+			buildPhases = (
+				10C2223F182A185700609BE5 /* Sources */,
+				10C22240182A185700609BE5 /* Frameworks */,
+				10C22241182A185700609BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shopping;
+			productName = Shopping;
+			productReference = 10C22243182A185700609BE5 /* Shopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C2223B182A185700609BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mingle;
+			};
+			buildConfigurationList = 10C2223E182A185700609BE5 /* Build configuration list for PBXProject "Shopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10C2223A182A185700609BE5;
+			productRefGroup = 10C22244182A185700609BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C22242182A185700609BE5 /* Shopping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C22241182A185700609BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C22251182A185700609BE5 /* InfoPlist.strings in Resources */,
+				10C22259182A185700609BE5 /* Default.png in Resources */,
+				10C2225B182A185700609BE5 /* Default@2x.png in Resources */,
+				10C2225D182A185700609BE5 /* Default-568h@2x.png in Resources */,
+				10561510182A2634000EF8AA /* LoginViewController.xib in Resources */,
+				10561516182A2853000EF8AA /* AdminViewController.xib in Resources */,
+				10561520182A2D88000EF8AA /* AddGoodsViewController.xib in Resources */,
+				10561527182A36AC000EF8AA /* RegisterViewController.xib in Resources */,
+				82546E53182BD16A003643AD /* GoodListViewController.xib in Resources */,
+				82C54417182BDAD1002EB306 /* GoodsInfoViewController.xib in Resources */,
+				82C8404E182BE14E0034B7FD /* ShoppingCarViewController.xib in Resources */,
+				82E5738B182BE8EE00A21B6C /* AddressListViewController.xib in Resources */,
+				82E57390182BEC1000A21B6C /* AddAddressViewController.xib in Resources */,
+				82E57399182BF21D00A21B6C /* OrderViewController.xib in Resources */,
+				82E5739F182BF70400A21B6C /* OrderListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C2223F182A185700609BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C22253182A185700609BE5 /* main.m in Sources */,
+				10C22257182A185700609BE5 /* AppDelegate.m in Sources */,
+				10C22265182A186900609BE5 /* Shopping.xcdatamodeld in Sources */,
+				10C2226B182A1DD300609BE5 /* Goods.m in Sources */,
+				10C22271182A1DDF00609BE5 /* ShopCar.m in Sources */,
+				10C22274182A1DE300609BE5 /* User.m in Sources */,
+				10C22279182A24C900609BE5 /* CoreDataManager.m in Sources */,
+				10C2227A182A24C900609BE5 /* ImageToDataTransformer.m in Sources */,
+				1056150F182A2634000EF8AA /* LoginViewController.m in Sources */,
+				10561515182A2853000EF8AA /* AdminViewController.m in Sources */,
+				1056151B182A28CB000EF8AA /* ShoppingManager.m in Sources */,
+				1056151F182A2D88000EF8AA /* AddGoodsViewController.m in Sources */,
+				10561526182A36AC000EF8AA /* RegisterViewController.m in Sources */,
+				82546E52182BD16A003643AD /* GoodListViewController.m in Sources */,
+				82C54416182BDAD1002EB306 /* GoodsInfoViewController.m in Sources */,
+				82C8404D182BE14E0034B7FD /* ShoppingCarViewController.m in Sources */,
+				82E5738A182BE8EE00A21B6C /* AddressListViewController.m in Sources */,
+				82E5738F182BEC1000A21B6C /* AddAddressViewController.m in Sources */,
+				82E57393182BEFC200A21B6C /* Address.m in Sources */,
+				82E57398182BF21D00A21B6C /* OrderViewController.m in Sources */,
+				82E5739E182BF70400A21B6C /* OrderListViewController.m in Sources */,
+				10DEC36F182B7D0100C45DE4 /* Order.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10C2224F182A185700609BE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C22250182A185700609BE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C2225E182A185700609BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10C2225F182A185700609BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C22261182A185700609BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shopping/Shopping-Prefix.pch";
+				INFOPLIST_FILE = "Shopping/Shopping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10C22262182A185700609BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shopping/Shopping-Prefix.pch";
+				INFOPLIST_FILE = "Shopping/Shopping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C2223E182A185700609BE5 /* Build configuration list for PBXProject "Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C2225E182A185700609BE5 /* Debug */,
+				10C2225F182A185700609BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C22260182A185700609BE5 /* Build configuration list for PBXNativeTarget "Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C22261182A185700609BE5 /* Debug */,
+				10C22262182A185700609BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10C22263182A186900609BE5 /* Shopping.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10C22264182A186900609BE5 /* Shopping.xcdatamodel */,
+			);
+			currentVersion = 10C22264182A186900609BE5 /* Shopping.xcdatamodel */;
+			path = Shopping.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10C2223B182A185700609BE5 /* Project object */;
+}
